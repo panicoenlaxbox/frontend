@@ -1,0 +1,21 @@
+{
+  "name": "modules",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Sergio León <panicoenlaxbox@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "^2.3.2",
+    "jquery": "^3.1.1"
+  }
+}

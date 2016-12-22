@@ -1,0 +1,23 @@
+@import 'base';
+$primary-color: white;
+body {
+    background-color: $primary-color;
+    font-weight: bold;
+}
+h1 {
+    text-shadow: 2px 2px #ff0000;
+}
+
+#grad {
+    background: linear-gradient(red, yellow); /* Standard syntax */
+}
+
+/// @author panicoenlaxbox
+/// @link http://www.analyticalways.com/
+/// Bordes redondeados
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}

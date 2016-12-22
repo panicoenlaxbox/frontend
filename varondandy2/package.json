@@ -1,0 +1,16 @@
+{
+  "name": "varondandy",
+  "version": "1.0.0",
+  "description": "Abrir carpeta (VSC) Agregar fichero index.html \tUn poquito de emmet h1{Hello World} Agregar extension \"View in browser\" \"Quiero recargar automáticamente los cambios\" \tnpm list --depth=0 -g \tsudo npm install live-server -g Agregar fichero main.css \tUn poquito más de emmet bgc \tUn poquito más de emmet link[href=\"main.css\"] Agregar fichero main.js \tUn poquito más de emmet script[src=\"main.js\"] \tUn poquito más de emmet input[type=\"button\"][value=\"greet\"][onclick=\"greet('Sergio');\"]",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server & node-sass -w main.scss main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.1.0",
+    "node-sass": "^3.11.3"
+  }
+}
